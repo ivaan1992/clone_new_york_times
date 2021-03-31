@@ -10,11 +10,22 @@
 }
     #main-content .article,
     #main-content .title-image{
-       text-align: left;
-        font-family: Arial, Helvetica, sans-serif;
+      width:150%; 
     }
     #main-content .title-image img{
-        width: 100%;
+        width:auto;
+        border: 1px solid red;
+       
+
+    }
+
+.picture-text{
+    margin:auto;
+    text-align:left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 16.5px;
+    color: #666666;
     }
     
 .lines{
@@ -31,29 +42,32 @@
     font-style: normal;
     text-align: left;
 }
-.color
-{
-font-size: 15px;
-color: #545454;
-text-align: justify;
-}
+
 .beginning{
-font-style: italic;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 10px;
+text-align:left;
+font-style: normal;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
 margin-left: calc((100% - 600px) / 2);
 margin-right: 0;
 width: 600px;
 }
+
 .beginning button{
-    width: 80px;
-    height: 30px;
+    border: 0;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
     color: black;
-    transition: all .2s;
+    background-color: white
+    border: 10px solid black;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
 #beginning .beginning-button:hover{
-    background-color: transparent;
-    border: 1px solid white;
+    background: black;
+    color: white;
+    transition: all .25s;
 }
 
 
@@ -158,6 +172,8 @@ width: 600px;
 }
 
 .author{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
     font-size: 15px;
     font-weight:bold;
     width: 60%;
@@ -168,6 +184,8 @@ width: 600px;
 }
 
 .date{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
     font-size: 15px;
     font-weight: 10px;
     text-align: left;
@@ -214,7 +232,7 @@ width: 600px;
 }
 
 .article{
-    font-style: italic;
+    font-style: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: calc((100% - 600px) / 2);
     margin-right: 200px;
