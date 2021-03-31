@@ -14,9 +14,6 @@
     }
     #main-content .title-image img{
         width:auto;
-        border: 1px solid red;
-       
-
     }
 
 .picture-text{
@@ -54,17 +51,16 @@ width: 600px;
 }
 
 .beginning button{
-    border: 0;
+    border: 1px solid black;
     padding: .5rem 1rem;
     border-radius: .3rem;
     color: black;
-    background-color: white
-    border: 10px solid black;
+    background-color: white;
     margin-left: 20px;
     cursor: pointer;
     margin-bottom: 10px;
 }
-#beginning .beginning-button:hover{
+.beginning button:hover{
     background: black;
     color: white;
     transition: all .25s;
@@ -239,12 +235,20 @@ width: 600px;
     width: 600px;
    }
 
+.editors-pick{
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: 200px;
+    width: 600px;
+   }
 .social-media{
     margin: 1rem auto;
     justify-content: space-around;
     align-items:flex-start;
     flex-direction: row;
-   
 }
 .social-media .social-button{
         border: 0;
@@ -350,31 +354,48 @@ width: 600px;
 .columns{
     box-sizing: border-box;
     color: #444;
-    float:right;
+    float: right;
     padding: 1em;
-  
-    width: 25%;
+    width: 100%;
+    margin-top: 10rem;
     
 }
 .universe{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    top: 25%;
+    left: 0.5%;
+    width: 72rem;
+    grid-row: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    background-image: url(Images/inflation-945.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 450px;
+    margin-left: 450px ;
 }
+
+
 .video{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
     text-align: left;
     margin-left: calc((100% - 600px) / 2);
     margin-right: 200px;
     width: 600px;
 }
 .coloor{
+font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 15px;
 color: #545454;
 text-align: left;
 margin-left: calc((100% - 600px) / 2);
 margin-right: 200px;
 width: 600px;
+
 
 }
 .center{
@@ -387,19 +408,49 @@ footer{
     font-size: .8rem;
 }
 .basic{
-    font-size: 1.5rem;
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align:left;
+    font-size: 1rem;
 }
 
 .spirals{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    text-align: left;
     margin-left: calc((100% - 600px) / 2);
     margin-right: 200px;
     width: 600px;
+}
+
+.last-picture{
+    display: flex;
+    justify-content:center;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.epigraph{
+   max-width: 50%;
+    margin-left: 543.5px;
+    margin-right: 543.5px;
+    text-align:left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #666666;
+   
 }
 
 .last-paragraphs{
     margin-left: calc((100% - 600px) / 2);
     margin-right: 200px;
     width: 600px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    text-align:left;
 }
 
 .end{
@@ -412,3 +463,28 @@ footer{
     width: 600px; 
 }
 
+.comments-button{
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: 200px;
+    width: 600px;     
+    border: 1px solid red;
+}
+
+.social-button button{
+
+    border: 0;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    color:white;
+    background-color: #326891;
+    border: 1px solid #326891;
+    margin-left: 1rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.social-button button:hover{
+    background-color: #08497a; ;
+    color:white;
+    transition: all .25s;
+}
