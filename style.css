@@ -124,21 +124,18 @@ width: 600px;
     font-size: 15px;
     margin-bottom: 10px;
     margin-top: 10px;
-    text-decoration: none;
-   
+    text-align: none;
+  
 }
 
 .space{
-
     margin-top: auto;
     margin-bottom: 50px;
     display:flex;
     width: 250px;
     height: 50px;
-    justify-content: flex-start;
-  
-   
-}
+    justify-content: flex-end;
+  }
 
 .NYT img{
     width: 270px;
@@ -184,7 +181,7 @@ width: 600px;
     margin-bottom: 50px;
     width: 300px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     height: 50px;
   
@@ -210,8 +207,7 @@ width: 600px;
     margin-bottom: 50px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: calc((100% - 600px) / 2);
-    margin-right: 200px;
+    font-size: 20px;
     width: 600px;
     margin-top: 100px;
 
@@ -225,20 +221,23 @@ width: 600px;
     width: 600px;
    }
 
-#social-media{
+.social-media{
     margin: 1rem auto;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items:flex-start;
     flex-direction: row;
+   
 }
-    #social-media .social-button{
+.social-media .social-button{
         border: 0;
         cursor: pointer;
         background-color: lightgray;
         background-size: 1.5rem auto;
         transition: all .2s;
+        margin-right:25px;
     }
-    #social-media .social-button:hover{
+
+.social-media .social-button:hover{
         background-color: transparent;
         border: 1px solid lightgray;
     }
@@ -302,29 +301,30 @@ width: 600px;
     outline: none;
 }
 
-#social-media .Guardar{
+.social-media .Guardar{
     background-image: url(Images/guardar.png);
     background-size: cover;
     background-position: center;  
     background-repeat: no-repeat;
-    width: 30px;
-    height: 30px;
+    width:40px;                                          
+    height:40px;
     border-radius: 50%;
     outline: none;
     background-color: transparent;
 
 }
 
-#social-media .Comentarios{
+.social-media .Comentarios{
     background-image: url(Images/comentarios.png);
     background-size: cover;
     background-position: center;  
     background-repeat: no-repeat;
     border-image-width: 50%;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     outline: none;
     background-color: transparent;
+    border-radius: 50%;
 }
 .columns img{
     max-width: 100%;   
