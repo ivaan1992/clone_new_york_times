@@ -23,11 +23,12 @@
     text-align: center;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-   
-}    
+}
+
 .article{
-    font-size: 15px;
+    font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
     text-align: left;
 }
 .color
@@ -39,6 +40,10 @@ text-align: justify;
 .beginning{
 font-style: italic;
 font-family: Georgia, 'Times New Roman', Times, serif
+font-size: 10px;
+margin-left: calc((100% - 600px) / 2);
+margin-right: 0;
+width: 600px;
 }
 .beginning button{
     width: 80px;
@@ -52,46 +57,86 @@ font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 nav{
+  width: 100%;
   display: flex;
   contain: center;
-  justify-content:space-around;
-  align-items: center;
-  width: 100%;
-  line-height: 100%;
+  justify-items: center;
+  align-content: ;
+
+  line-height: 50px;
   border-bottom: 1px solid #D1D1D1;
+  position: fixed; 
+  margin-bottom: 100px;
+  margin-top: 5px;
 }
-.menu-buttons{
+
+.menu-button{
+    border: transparent;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
     flex-direction: row;
     margin-left: 50px;
-    width: 10rem;
- 
+    width: .5rem;
+    background-color:transparent;
+    color: transparent;
 }
-.menu{
-    width: 50px;
-   
+
+.search-button{
+    border: transparent;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: row;
+    margin-left: 50px;
+    width: .5rem;
+    background-color:transparent;
+    color: transparent;
 }
+
+.cosmo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items:center;
+    margin-left: 50px;
+    width: 5px;    
+}
+
+
 .NYT img{
-    width: 300px;
-   justify-content: center; 
+    width: 250px;
+    display: flex;
 }
 .NYT {
     width:700px;
     justify-content: center;
     display: flex;
-
-}
-.buscar {
-    width: 50px;
-    
 }
 
 .texto {
     width: 300px;
     font-weight: bold;
    
+}
+
+.author{
+    font-size: 15px;
+    font-weight:bold;
+    width: 60%;
+    text-align: left;
+    margin-top:20px;
+    margin-left: calc((100% - 600px) / 2);
+    margin-right:0;
+}
+
+.date{
+    font-size: 15px;
+    font-weight: 10px;
+    text-align: left;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: calc((100% - 600px) / 2);
+    margin-right:0;
 }
 .buttons{
     width: 500px;
@@ -118,10 +163,22 @@ nav{
 }
 
 .title-article{
-    margin: 2rem auto;
-    width: 450px;
+    margin-bottom: 50px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: 200px;
+    width: 600px;
+    margin-top: 300px;
+
+}
+
+.article{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: 200px;
+    width: 600px;
    }
 
 #social-media{
@@ -245,11 +302,18 @@ nav{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1rem;
     text-align: left;
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: 200px;
+    width: 600px;
 }
 .coloor{
-font-size: 10px;
+font-size: 15px;
 color: #545454;
 text-align: left;
+margin-left: calc((100% - 600px) / 2);
+margin-right: 200px;
+width: 600px;
+
 }
 .center{
     display: flex;
@@ -262,4 +326,31 @@ footer{
 }
 .basic{
     font-size: 1.5rem;
+}
+
+.spirals{
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: 200px;
+    width: 600px;
+}
+
+.last-paragraphs{
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: 200px;
+    width: 600px;
+}
+
+.end{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #A0A0A0
+    text-align: left;
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: 200px;
+    width: 600px; 
+}
+
+header{
+    margin-top: 100px;
+    
 }
