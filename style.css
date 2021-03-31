@@ -463,16 +463,18 @@ footer{
     width: 600px; 
 }
 
-.comments-button{
+.last-bottons{
+    display: flex;
     margin-left: calc((100% - 600px) / 2);
     margin-right: 200px;
     width: 600px;     
-    border: 1px solid red;
+    justify-content: space-between;
+    
 }
 
 .social-button button{
-
-    border: 0;
+    display: inline;
+    border: 1px solid black;
     padding: .5rem 1rem;
     border-radius: .3rem;
     color:white;
@@ -487,4 +489,18 @@ footer{
     background-color: #08497a; ;
     color:white;
     transition: all .25s;
+}
+
+.sociaal-media button{
+
+    cursor: pointer;
+    background-color: lightgray;
+    background-size: 1rem auto;
+    transition: all .2s;
+    margin-right:25px;
+}
+
+.sociaal-media button:hover{
+    background-color: transparent;
+    border: 1px solid lightgray;
 }
