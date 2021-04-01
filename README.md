@@ -4,10 +4,9 @@
 New York Times Clone
 
 >This is my first web page clone.
->
-screenshot
 
-/home/ivan/Documentos/Project 1/clone_new_york_times/Images/screenshot.png
+screenshot
+![alt text](https://github.com/ivaan1992/clone_new_york_times/blob/develop/Images/screenshot.png)
 
 
 ## Built With
