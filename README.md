@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-NYT ARTICLE
+##NYT ARTICLE
 
 
 >This is my first web page cloned. I made it only with HTML & CSS. This project wants to focus in Positioning and Floating Elements. 
