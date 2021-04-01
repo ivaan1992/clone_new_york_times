@@ -1,5 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-##NYT ARTICLE
+NEW YORK TIMES ARTICLE
 
 
 >This is my first web page cloned. I made it only with HTML & CSS. This project wants to focus in Positioning and Floating Elements. 
@@ -24,4 +23,7 @@ It's a very interesting article. And you can see HTML & CSS skills working toget
 - LinkedIn: [https://www.linkedin.com/in/ivan-linares-gaona/](https://www.linkedin.com/in/ivan-linares-gaona/)
 
 Give a ⭐️ if you like this project!
+
+
+License This project has not been licensed.
 
