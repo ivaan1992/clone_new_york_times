@@ -1,7 +1,8 @@
 ## NEW YORK TIMES ARTICLE
 
 
->This is my first web page cloned. I made it only with HTML & CSS. This project wants to focus in Positioning and Floating Elements. 
+>This is my first web page cloned. I made it only with HTML & CSS. This project focus in Positioning and Floating Elements.
+ 
 ## Built With
 
 -HTML & CSS
