@@ -38,5 +38,5 @@ It's a very interesting article. And you can see HTML & CSS skills working toget
 Give a ⭐️ if you like this project!
 
 
-License This project has not been licensed.
+License This project has not been license.
 
