@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+
+## NEW YORK TIMES ARTICLE
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
@@ -8,9 +9,6 @@ New York Times Clone
 
 screenshot
 ![alt text](https://github.com/ivaan1992/clone_new_york_times/blob/develop/Images/screenshot.png)
-=======
-## NEW YORK TIMES ARTICLE
->>>>>>> 59e51ca678b4a9438eb9093a9e3bfe9258641ac9
 
 
 >This is my first web page cloned. I made it only with HTML & CSS. This project focus in Positioning and Floating Elements.
@@ -26,6 +24,9 @@ https://ivaan1992.github.io/clone_new_york_times/
 If you click in the link, you can see and read my project.
 It's a very interesting article. And you can see HTML & CSS skills working together. Is awasome. 
 
+## Set up
+> npm i
+> Open index.html on any browser
 
 ## Authors
 
@@ -39,4 +40,3 @@ Give a ⭐️ if you like this project!
 
 
 License This project has not been license.
-

@@ -121,6 +121,23 @@
   margin-right: 25px;
 }
 
+.form button {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  color: black;
+  background-color: #08497a;
+  margin-left: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.form button:hover {
+  background: black;
+  color: white;
+  transition: all 0.25s;
+}
+
 .beginning button:hover {
   background: black;
   color: white;
@@ -785,4 +802,29 @@ ul.footer-site-info {
   margin-left: 350px;
   margin-right: 350px;
   border-top: 1px solid black;
+}
+
+.formulario {
+  width: 50%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  width: 50%;
+  height: 20%;
+  align-items: center;
+}
+
+li {
+  margin-top: 20px;
+  list-style: none;
+}
+
+label {
+  width: 300px;
+  height: 20px;
 }
