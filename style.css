@@ -121,6 +121,23 @@
   margin-right: 25px;
 }
 
+.form button {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  color: black;
+  background-color: #08497a;
+  margin-left: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.form button:hover {
+  background: black;
+  color: white;
+  transition: all 0.25s;
+}
+
 .beginning button:hover {
   background: black;
   color: white;
@@ -788,20 +805,19 @@ ul.footer-site-info {
 }
 
 .formulario {
-  width:50%;
+  width: 50%;
   height: 500px;
   justify-content: center;
-  margin-left: 500px; 
+  align-items: center;
   text-align: center;
 }
 
 form {
-  margin:auto;
+  margin: auto;
   width: 50%;
   height: 20%;
   align-items: center;
 }
-
 
 li {
   margin-top: 20px;
@@ -811,14 +827,4 @@ li {
 label {
   width: 300px;
   height: 20px;
-  font-weight: 50px;
 }
-
-form button{
-height: 50px;
-width: 150px;
-text-align: center;
-background-color: #08497a;
-color: white;
-}
-
